@@ -1,6 +1,7 @@
 import os
 import time
 import cv2
+import streamlit as st
 # 2. crop scan_input
 # os.system('python scan/YOLOv5/detect.py --source image/scan_input/0 --weights scan/YOLOv5/best.pt --option scan --save-conf')
 # time.sleep(0.5)
